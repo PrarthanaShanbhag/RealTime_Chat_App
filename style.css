@@ -1,0 +1,46 @@
+body{
+    background-image: url('./actual/php/images/a.gif');
+  background-position:  top 0% right 15%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+
+.buttons{
+   
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 10vw;
+    margin-left: 100px;
+    margin-top: 2%;
+    background-color: transparent;
+    
+    
+}
+.buttons__login{
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.type{
+    
+margin-top: 230px;
+margin-left: 100px;
+}
+h1{
+    display:inline-block;
+    color:rgb(51, 123, 182);
+    white-space: nowrap;  
+    letter-spacing: .05rem;
+    animation : typing 1.5s steps(60, end);
+    overflow: hidden;
+
+  }
+  @keyframes typing{
+    from {
+      width: 1%;
+    }
+    to{
+      width: 100%;
+    }
+  }
